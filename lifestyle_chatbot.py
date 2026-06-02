@@ -90,7 +90,7 @@ def render_lifestyle_chatbot():
             st.write(user_question)
 
         with st.spinner("Thinking..."):
-            llm = Ollama(model="mistral", temperature=0.2)
+            llm = Ollama(model="llama3.2:3b", temperature=0.2)
 
             previous_chat = ""
             for msg in st.session_state.lifestyle_messages[-8:]:
