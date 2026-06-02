@@ -1,0 +1,37 @@
+{
+    "1": {
+        "name": "Me",
+        "relation": "Self",
+        "condition": "None",
+        "connects_to": null,
+        "gen": 2
+    },
+    "c9ddd7f5": {
+        "name": "a",
+        "relation": "Parent",
+        "condition": "None",
+        "connects_to": "1",
+        "gen": 1
+    },
+    "b9bf0b0f": {
+        "name": "b",
+        "relation": "Parent",
+        "condition": "Type 1",
+        "connects_to": "1",
+        "gen": 1
+    },
+    "1047315b": {
+        "name": "aa",
+        "relation": "Parent",
+        "condition": "Type 1",
+        "connects_to": "c9ddd7f5",
+        "gen": 0
+    },
+    "d93cf80f": {
+        "name": "ab",
+        "relation": "Parent",
+        "condition": "Type 1",
+        "connects_to": "c9ddd7f5",
+        "gen": 0
+    }
+}
