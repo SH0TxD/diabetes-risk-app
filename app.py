@@ -118,7 +118,7 @@ def logout():
 
 def login_page():
     """Render login page"""
-    st.title("🩺 DiaRisk Bosnia")
+    st.title("🩺 GlucoGuard Bosnia")
     st.subheader("Type 2 Diabetes Risk Awareness Prototype")
 
     st.markdown("---")
@@ -278,12 +278,12 @@ if not st.session_state.logged_in:
 # ------------------------------------------------------------
 
 st.set_page_config(
-    page_title="DiaRisk Bosnia",
+    page_title="GlucoGuard Bosnia",
     page_icon="🩺",
     layout="wide"
 )
 
-st.title("DiaRisk Bosnia")
+st.title("GlucoGuard Bosnia")
 st.caption("Type 2 diabetes risk awareness prototype — preventive support, not diagnosis.")
 
 st.sidebar.title("Navigation")
@@ -1758,7 +1758,7 @@ elif page == "About & Safety":
     st.header("About & Safety")
     st.markdown(
         """
-        **Purpose:** DiaRisk Bosnia is a preventive support tool for early type 2 diabetes risk awareness.
+        **Purpose:** GlucoGuard Bosnia is a preventive support tool for early type 2 diabetes risk awareness.
 
         **What it does:**
         - Uses FINDRISC-style questionnaire scoring with a clear medical disclaimer
