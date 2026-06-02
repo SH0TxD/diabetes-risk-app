@@ -1685,7 +1685,7 @@ elif page == "Prevention Passport":
     render_prevention_passport()
 
 
-elif page == "AI Lifestyle Advice":
+elif page == "GlucoGuard AI":
     render_lifestyle_chatbot()
 
 
