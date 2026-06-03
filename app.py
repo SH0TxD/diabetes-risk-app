@@ -292,7 +292,7 @@ page = st.sidebar.radio(
     [
         "Risk Assessment",
         "Prevention Passport",
-        "AI Lifestyle Advice",
+        "GlucoGuard AI",
         "Health Tracking",
         "Find Doctors",
         "About & Safety",
